@@ -1,6 +1,6 @@
-package array.Normal;
+package array.Twopointer;
 
-//5
+//1
 public class Reverseanarray {
     public static void main(String[] args) {
         int a[] = { 2, 3, 5, 6, 4, 8 };
