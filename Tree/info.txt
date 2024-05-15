@@ -1,0 +1,21 @@
+we have hirearchy structure like folder,organisation level we use tree ds
+1.node at top of hirearchy called rootnode
+2. node just above the node is called parent node
+3.each tree contain various subtree
+4.degree of node is equal to number of children
+5.node at bootom of tree is called leaf node
+6.node other than leaf node is called internal node
+Application
+1.hirearchy-> organisation structure
+2.folder
+3.xml/html content
+4.inheritance
+5.binary search tree
+6.binary heap
+7.b and b+ tree
+8.spanning tree used by bridges
+   shortest tree by router
+9.parse tree and expression tree in compiler
+10. suffix tree to find fast search pattern in string
+11. binary index tree and segment tree range query searching segment tree are more powerful
+and binary index tree is more fast at particular length

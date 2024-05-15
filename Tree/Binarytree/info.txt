@@ -1,0 +1,6 @@
+In binary tree every node have atmost two children so it have 
+0,1,2 degree
+each node have three field data,left reference,right reference if it not have reference 
+so it point to null
+1. linkedlist representation
+2. array representation

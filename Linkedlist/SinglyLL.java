@@ -1,7 +1,5 @@
 package Linkedlist;
 
-import org.w3c.dom.Node;
-
 // it is a data structure in which each node connect to each other
 //which have two part one part store data second part store address
 //1st node head of linkedlist

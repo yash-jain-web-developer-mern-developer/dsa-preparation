@@ -1,0 +1,6 @@
+breadth first search(level order)
+depth first(in,pre,post order)
+depth first easily done by recursion
+inorder->left,root,right
+preorder->root,left,right
+postorder->left,right,root

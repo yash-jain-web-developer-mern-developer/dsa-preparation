@@ -1,0 +1,15 @@
+search,insert,delete,find closest is O(logn) in balanced but O(H) in general,
+sorted traversal O(n)
+has table is best but it is best in find closest,sortest traversal,find ceil,floor,greater,smaller
+
+in general it time complexity is o(H)
+but if baleneced it is O(logn) which is mostly preferable
+
+completely unbalanced are left skewed and right skewed 
+
+In binary search tree organised in a way if we search so it escape half of array
+so it like binary search
+
+left value is smaller and right value is greater
+
+Impliment by treeset and treemap
