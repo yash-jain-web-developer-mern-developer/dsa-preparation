@@ -6,3 +6,4 @@ queue is just like movie ticket line and it work on fifo and lilo
 deletion is happen at front end and insertion is happen at rear end
 queue is an interface
 
+

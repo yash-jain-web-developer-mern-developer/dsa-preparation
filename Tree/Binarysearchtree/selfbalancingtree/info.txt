@@ -1,0 +1,9 @@
+idea of self balancing tree is height not beyond logn so time
+complexity is(O(logn))
+ in skewed it give O(H);
+
+ so it can be achive by doing restructuring during insertion and deletion
+
+ two type of 
+ 1.avl tree-> strict balance
+ 2.red black tree-> loose in balance, less restructuring, use mostly

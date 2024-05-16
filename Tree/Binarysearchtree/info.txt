@@ -13,3 +13,10 @@ so it like binary search
 left value is smaller and right value is greater
 
 Impliment by treeset and treemap
+
+application of self balancing tree
+1.To maintain  sorted stream of data(or sorted set of data)
+2.To Impliment doubly  ended priority queue(find most priority and least priority patient)find maximum and minimum in O(1)
+3.To solve problem
+  1.count smaller/greaater in a stream 
+  2.floor/ceil/greater/smaller in a stream
