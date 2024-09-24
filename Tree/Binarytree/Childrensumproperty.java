@@ -1,5 +1,5 @@
 package Tree.Binarytree;
-
+//12
 // sum of child node equal to node value
 class Node {
     int key;

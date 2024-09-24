@@ -32,8 +32,8 @@ public class Constructfrominandpre {
                 break;
             }
         }
-        root.left = construct(in, pre, startindex, endindex - 1);
-        root.right = construct(in, pre, startindex + 1, endindex);
+        root.left = construct(in, pre, startindex, inIndex - 1);
+        root.right = construct(in, pre, inIndex + 1, endindex);
         return root;
     }
 }

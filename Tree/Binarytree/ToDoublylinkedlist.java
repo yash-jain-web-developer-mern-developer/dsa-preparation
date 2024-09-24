@@ -31,7 +31,7 @@ public class ToDoublylinkedlist {
             head = root;
         } else {
             root.left = prev;
-            root.right = root;
+            prev.right = root;
         }
         prev = root;
         convert(root.right);

@@ -1,0 +1,58 @@
+It is used to make friend relation,random connection,social media,maps,uber,shortest path
+it is set of vertices or nodes and edges or network of nodes
+A graph some time be a combination of componenets,so it may have unconected componnents
+1. directed  graph-> it have particular direction ex: www unidirectional and bidirectional
+    indegree-> number of edges coming init
+    outdegree-> number of edges going out from it
+    sum of indegree=sum of outdegree=number of edges
+    maximum number of edges=|v|*(|v|-1)
+
+2.undirected or bidirectional graph-> it can be move in any direction ex: social network
+  degree -> number of edges connected
+  sum of degree=2*|E|
+ maximum number of edges=(|v|*(|v|-1))/2
+
+ walk-> is a sequence of vertices in which we walk through edges
+ path -> no repeted vertices(simple path )
+ 1.cyclic graph-> walk that begin and end at same vertices
+ 2.acyclic graph-> not contain cyclye  directed acyclic and undirected acyclic
+ 1.weighted graph-> in which vertices contain weighted
+ 2.unweighted graph-> in which vertices not contain weight
+
+ representation 
+ 1. adjacency matrix-> 2 d matrix in which we place only 1 if there is relation at index i and j if we have edge between i and j otherwise 0
+   for undirected graph it is symeetric that is lower and upper triangular are mirror image
+     properties
+     1. space theta(VXV)
+     2.to check u and v are adjacent O(1)
+     3.find alll adjacent of u O(V)
+     4.find degree of u theta(V)
+     5.add remove edge  theta(1)
+     6. add remove vertex theta(V square)
+     ex. graph have 3 node so matrix is 3x3 
+      and if weighted so put weight or 0 otherwise 0 or 1 
+      
+ 2. Adjacency List(list of list) -> matrix store which connected to it and which not so it not prefer
+      at i we have connected various vertices so at i index we connected to next node then next node
+        we done by
+        1.dynamic size array
+        2.Linked list
+      properties
+      1 space theta(V+E)
+      2.check if there is an edge from u to v:O(V)
+      3.find all adjacent of u thete(degree (u))
+      4.find degree of u-> theta(1)
+      5.add an edge -> thta(1)
+      6. remove an  edge-> theta(V)
+      Ex: if we have 3 node [[1,2],[0],[0]]  it show from 0 we go 1 and 2
+                              0     1   2
+          if we have weighted so we insert pair (Node,weight)   
+                            [[(1,10),(2,20)],[(0,10)],[(0,20)]] it show from 0 we go 1 with weight 10 and 2 with weight 20
+                                     0            1     2
+3. Edge Listoath
+
+4. 2D Matrix
+
+Application of graph 
+1. find sortest 
+2. facebook mutual friend 

@@ -6,8 +6,8 @@ public class Ceilandfloor {
     public static void main(String[] args) {
         int a[] = { 19, 23, 56, 61, 72, 88, 92 };
         Ceilandfloor s = new Ceilandfloor();
-        System.out.println(s.ceil(a, 68));
-        System.out.println(s.floor(a, 68));
+        System.out.println(s.ceil(a, 61));
+        System.out.println(s.floor(a, 61));
     }
 
     public int ceil(int a[], int k) {

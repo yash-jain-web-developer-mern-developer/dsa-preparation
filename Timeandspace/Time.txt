@@ -1,0 +1,3 @@
+-Each problem solve by multiple approach so to find best approach we need some factor
+ time and space
+ 

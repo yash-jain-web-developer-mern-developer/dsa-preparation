@@ -4,7 +4,8 @@ package Linkedlist.Fastandslowpointer;
 //if  2 node remove 2nd
 //normally find even and odd technique 
 public class Deletemiddle {
-    Middlelinkelist s = new Middlelinkelist();s.middledelete(head);
+    Middlelinkelist s = new Middlelinkelist();
+    s.middledelete(head);
 }
 
 public void middledelete(Node head){
@@ -17,7 +18,7 @@ public void middledelete(Node head){
     while(fast!=null&&fast.next!=null){
         prev=slow;
         slow=slow.next;
-        fast=fast.next;
+        fast=fast.next.next;
     }
     if(prev==null){
         //single node

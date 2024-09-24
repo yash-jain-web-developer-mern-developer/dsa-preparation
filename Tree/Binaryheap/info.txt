@@ -1,0 +1,21 @@
+It is used to impliment heap sort 
+and priority queue
+Ex: patient assign priority
+
+Two type:
+1.min heap:highet priority item is assigned lowest value
+2.max heap:highet priority item is assigned highest value
+
+Binary heap is complete binary tree(stored as an array)
+complete binary tree is a tree in which all level is filled
+except last level is filled from left 
+
+left child=2i+1
+right child=2i+2
+parent=floor((i-1)/2);
+
+
+1. min heap
+property
+1.complete binary tree 
+2.parent<child

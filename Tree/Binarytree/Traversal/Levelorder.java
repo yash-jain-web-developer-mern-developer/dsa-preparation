@@ -1,5 +1,5 @@
 package Tree.Binarytree.Traversal;
-
+//7
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -35,7 +35,7 @@ public class Levelorder {
         Queue<Node> q = new LinkedList<Node>();
         q.add(root);
         while (q.isEmpty() == false) {
-            Node curr = q.poll();
+             Node curr = q.poll();
             System.out.println(curr.key);
             if (curr.left != null) {
                 q.add(curr.left);

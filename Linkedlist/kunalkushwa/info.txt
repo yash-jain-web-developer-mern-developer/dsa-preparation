@@ -1,0 +1,8 @@
+in arraylist make double it
+array is fixed size
+so we make we have node in heap that are corrected by address
+problem is not directly access node
+class Node{
+    int val;
+    Node next;
+}

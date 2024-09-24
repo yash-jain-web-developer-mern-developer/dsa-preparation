@@ -1,5 +1,5 @@
 package Tree.Binarytree.Traversal;
-
+//3
 //time complexity is O(n) if internal node we print it 
 //auxilary space we have root node and either its left sub tree or
 //right subtree so call stack is height of tree O(h)

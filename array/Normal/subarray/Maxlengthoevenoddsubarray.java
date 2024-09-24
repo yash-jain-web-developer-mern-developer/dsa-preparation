@@ -14,7 +14,7 @@ public class Maxlengthoevenoddsubarray {
         int count = 1;
         int maxcount = 1;
         for (int i = 1; i < a.length; i++) {
-            if ((a[i] % 2 == 0 && a[i - 1] % 2 != 2) || (a[i] % 2 != 0 && a[i - 1] % 2 == 2)) {
+            if ((a[i] % 2 == 0 && a[i - 1] % 2 != 0) || (a[i] % 2 != 0 && a[i - 1] % 2 == 0)) {
                 count++;
                 maxcount = Math.max(maxcount, count);
             } else {

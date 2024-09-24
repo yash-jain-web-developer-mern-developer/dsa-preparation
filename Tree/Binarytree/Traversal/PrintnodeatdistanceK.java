@@ -1,5 +1,5 @@
 package Tree.Binarytree.Traversal;
-
+//6  
 //k=0 root of binary tree
 //time complexity is O(n) if internal node we print it 
 //auxilary space we have root node and either its left sub tree or

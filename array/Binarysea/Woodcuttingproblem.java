@@ -13,8 +13,8 @@ public class Woodcuttingproblem {
         System.out.println(s.cutting(a, 7));
     }
 
-    public int findwoodcount(int a[], int m) {
-        int wc = 0;
+    public int findwoodcount(int a[], int m) {// m is amount of wood is cut and it must be equal to woodcount
+        int wc = 0;// amount of wood cut from each tree
         for (int i = 0; i < a.length; i++) {
             if (a[i] > m) {
                 wc = wc + (a[i] - m);

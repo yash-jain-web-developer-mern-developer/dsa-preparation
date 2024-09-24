@@ -1,5 +1,5 @@
 package Tree.Binarytree;
-
+//10
 // for max we find between root ,root.left,root.right
 class Node {
     int key;

@@ -1,5 +1,9 @@
 package Tree.Binarytree;
 
+import java.util.LinkedList;
+import java.util.Queue;
+
+//11
 // left most node at each level
 //in pre order traversal first node is always leftmost
 //we use level order for i=0 so it print only for first node
@@ -26,15 +30,27 @@ public class Leftview {
     int maxlevel = 0;
 
     private void left(Node root, int level) {
-        if (root == null) {
+         if (root == null)
             return;
+        Queue<Node> q = new LinkedList<Node>();
+        q.add(root);
+        while (q.isEmpty() == false) {
+            int count = q.size();
+            for(int i=0;i<count;i++){
+                Node curr = q.poll();
+                if(i==0){
+                    System.out.println(curr.key);  
+                }
+               
+                if (curr.left != null) {
+                    q.add(curr.left);
+                }
+                if (curr.right != null) {
+                    q.add(curr.right);
+                } 
+            }
+            
         }
-        if (maxlevel < level) {
-            System.out.println(root.key + " ");
-            maxlevel = level;
-        }
-        left(root.left, level + 1);
-        left(root.right, level + 1);
 
     }
 
